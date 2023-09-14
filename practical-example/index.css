@@ -1,0 +1,22 @@
+li{
+  display:inline;
+  text-decoration: none;
+  margin: 0 1rem;
+}
+
+#pop-up{
+  width:50%;
+  max-width: 500px;
+  min-width: 300px;
+  margin: 0 auto;
+  text-align: center;
+  border: 1px solid rgb(87, 87, 87);
+  padding: 2rem;
+
+  color: rgb(93, 93, 93);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-color: rgb(224, 234, 234);
+  border-radius: 6px;
+
+  display: none;
+}

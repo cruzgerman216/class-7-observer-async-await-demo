@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link rel="stylesheet" href="index.css" />
+        <script src="./shopping-cart.js"></script>
+        <script src="../async-await.js"></script>
+    </head>
+    <body>
+        <header
+            style="
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            "
+        >
+            <img
+                src="https://static.vecteezy.com/system/resources/thumbnails/011/401/535/small/online-shopping-trolley-click-and-collect-order-logo-design-template-vector.jpg"
+                alt="Shopping Cart Logo"
+                width="100px"
+            />
+
+            <ul>
+                <li>Home</li>
+                <li>Products</li>
+                <li id="header-cart">Cart(0)</li>
+            </ul>
+        </header>
+
+        <section>
+            <div id="pop-up"></div>
+
+            <div id="posts"></div>
+        </section>
+    </body>
+</html>
