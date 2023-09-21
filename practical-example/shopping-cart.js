@@ -53,3 +53,4 @@ const updatePopUp = (items) => {
 shoppingCart.subscribe(updateCart);
 shoppingCart.subscribe(updatePopUp);
 
+
